@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>myProfile</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="splash">
+	<div id="splash_logo" class="fadeUp">
+		<div class="loader"></div>
+		<p>Loading</p>
+	</div>
+</div>
+<div class="splashbg"></div>
+<div id="wrapper">
+	<div id="top-main">
+		<div id="top-title">
+			<h1 class="eachTextAnime">My Profile</h1>
+			<p class="eachTextAnime">Ryuzo Nakamura</p>
+		</div>
+	</div>
+	<div id="container">
+		<div class="openbtn"><span></span><span></span><span></span></div>
+		<nav id="g-nav">
+			<div id="g-nav-list">
+				<ul>
+					<li><a href="#top-main">Top</a></li> 
+					<li><a href="#about">ABOUT</a></li> 
+					<li class="has-child"><a href="#hobby">HOBBIES</a>
+						<ul>
+							<li><a href="h_soccer.html">SOCCER</a></li>
+							<li><a href="h_game.html">GAME</a></li>
+							<li><a href="h_snowboard.html">SNOW BOARD</a></li>
+						</ul>
+					</li> 
+					<li class="has-child"><a href="#favorite">FAVORITES</a>
+						<ul>
+							<li><a href="f_soccer.html">SOCCER TEAM/PLAYER</a></li>
+							<li><a href="f_artist.html">ARETIST</a></li>
+							<li><a href="f_dog.html">DOG</a></li>
+							<li><a href="f_comic.html">COMIC</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">CONTACT</a></li> 
+				</ul>
+			</div>
+		</nav>
+		<main id="main-area">
+			<section id="about">
+				<h2><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">ABOUT</span></span></h2>
+				<div id="profile">
+					<div class=blurTrigger><img src="img/me05.jpg"></div>
+					<p>
+						【名前】中村 竜蔵（ナカムラ リュウゾウ）<br>
+						【生年月日】2000/08/01<br>
+						【年齢】22歳<br>
+						【血液型】？？？<br>
+						【身長】ほぼ170cm<br>
+						【出身地】静岡県 浜松市<br>
+						【出身校】法政大学 情報科学部 ディジタルメディア学科<br>
+						【好きな食べ物】うなぎ、カツ、うどん、みかん<br>
+						【お気に入りの飲食店】新潟カツ丼 タレカツ
+					</p>
+				</div>
+			</section>
+			<section id="hobby">
+				<h2><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">HOBBIES</span></span></h2>
+				<div id="hobbies">
+					<div id="fadeup1" class="fadeUpTrigger"><div class="zoomOutText">
+						<a href="h_soccer.html"><span class="mask">
+							<img src="img/soccerball.jpg" alt="">
+							<span class="cap">サッカー</span>
+						</span></a>
+					</div></div>
+					<div id="fadeup2" class="fadeUpTrigger"><div class="zoomOutText">
+						<a href="h_game.html"><span class="mask">
+							<img src="img/game.jpg" alt="">
+							<span class="cap">ゲーム</span>
+						</span></a>
+					</div></div>
+					<div id="fadeup3" class="fadeUpTrigger"><div class="zoomOutText">
+						<a href="h_snowboard.html"><span class="mask">
+							<img src="img/snowboard.jpg" alt="">
+							<span class="cap">スノーボード</span>
+						</span></a>
+					</div></div>
+				</div>
+			</section>
+			<section id="favorite">
+				<h2><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">FAVORITE</span></span></h2>
+				<div id="favorites">
+					<a href="f_soccer.html" class="reverseColor">
+						<img src="img/silhouette/player.png">
+						<p>Soccer Team/Player</p>
+					</a>
+					<a href="f_artist.html" class="reverseColor">
+						<img src="img/silhouette/artist.png">
+						<p>Artist</p>
+					</a>
+					<a href="f_dog.html" class="reverseColor">
+						<img src="img/silhouette/dog.png">
+						<p>Dog</p>
+					</a>
+					<a href="f_comic.html" class="reverseColor">
+						<img src="img/silhouette/comic.png">
+						<p>Comic</p>
+					</a>
+				</div>
+			</section>
+			<section id="contact">
+				<h2><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">CONTACT</span></span></h2>
+				<ul>
+					<li>
+						<a href="https://twitter.com/ryu0801n"><img src="img/twitter.jpg"></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/ryu81tmlc/"><img src="img/instagram.jpg"></a>
+					</li>
+				</ul>
+				<p>ryuzo.nakamura@acro-net.co.jp</p>
+			</section>
+		</main>
+		<footer>
+			copyright©Ryuzo Nakamura
+			<p id="page-top"><a href="#">^</a></p>
+		</footer>
+	</div>
+</div>
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
